@@ -18,7 +18,7 @@ public GameObject(int x, int y, int width, int height) {
 	this.collisionBox= new Rectangle(x, y, width, height);
 }
 	void update() {
-		
+		collisionBox.setBounds(x, y, width, height);
 	} 
 	void draw(Graphics g) {
 		
